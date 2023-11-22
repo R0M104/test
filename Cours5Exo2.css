@@ -1,0 +1,54 @@
+section {
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgb(100, 100, 200);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(100, 100, 200);
+    margin: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid rgb(100, 100, 200);
+}
+
+.input-client {
+    border: 1px solid rgb(100, 100, 200);
+    border-radius: 25px;
+}
+
+textarea {
+    border: 1px solid rgb(100, 100, 200);
+    border-radius: 10px;
+    padding: 4px;
+    text-align: left;
+}
+
+.BConfirmer {
+    border: 1px solid red;
+    border-radius: 25px;
+    margin: 10px;
+    color :  red;
+}
+
+.BAnnuler {
+    border: 1px solid rgb(100, 100, 200);
+    border-radius: 25px;
+    margin: 10px;
+    color: rgb(100, 100, 200);
+}
+
+.BAnnuler:hover {
+    border-color: rgb(100, 100, 200);
+    color: #5c4293;
+    transition: 0.5s;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px;
+    background-color: transparent;
+}
+
